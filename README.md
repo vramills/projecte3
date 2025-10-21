@@ -25,3 +25,10 @@ Durant el projecte abordareu tasques pràctiques com:
 - Desplegar serveis de xarxa (DNS, DHCP, NTP, LDAP...).
 - Dissenyar i validar plans de backup i recuperació.
 - Desenvolupar i presentar una pàgina web o proposta de hosting per a un client.
+
+---
+
+## 📝 Tasques
+
+Podeu consultar totes les tasques fent clic a la tasca corresponent:
+- [Tasca 1](tasca01/README.md)
