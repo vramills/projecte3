@@ -32,3 +32,21 @@ Durant el projecte abordareu tasques pràctiques com:
 
 Podeu consultar totes les tasques fent clic a la tasca corresponent:
 - [Tasca 1](tasca01/README.md)
+- [Tasca 2](tasca02/README.md)
+- [Tasca 3](tasca03/README.md)
+- [Tasca 4](tasca04/README.md)
+- [Tasca 5](tasca05/README.md)
+- [Tasca 6](tasca06/README.md)
+- [Tasca 7](tasca07/README.md)
+- [Tasca 8](tasca08/README.md)
+
+---
+
+## 📝 Productes
+
+Podeu consultar tots els productes fent clic al producte corresponent:
+- [Producte 1](producte01/README.md)
+- [Producte 3](producte03/README.md)
+- [Producte 4](producte04/README.md)
+- [Producte 5](producte05/README.md)
+- [Producte 6](producte06/README.md)
