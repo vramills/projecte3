@@ -15,7 +15,7 @@ Per fer aquesta demostració, caldrà usar un equip **Zorin** amb dues interfíc
 
 - **Executa dig xtec.cat A**
 
-<img src="img/1.png" alt="Execució de dig xtec.cat A">
+<img src="img/1.png" alt="Execució de dig xtec.cat A" width="550">
 
 - **Anàlisi: Identifica la IP de resposta, el valor TTL i el servidor que ha respost a la consulta.**
 
@@ -25,7 +25,7 @@ Per fer aquesta demostració, caldrà usar un equip **Zorin** amb dues interfíc
 
 - **Executa dig tecnocampus.cat NS**
 
-<img src="img/2.png" alt="Execució de dig tecnocampus.cat NS">
+<img src="img/2.png" alt="Execució de dig tecnocampus.cat NS" width="550">
 
 - **Anàlisi: Quins són els servidors de noms autoritatius per a aquest domini?**
 
@@ -39,7 +39,7 @@ Per fer aquesta demostració, caldrà usar un equip **Zorin** amb dues interfíc
 
 - **Executa dig escolapia.cat SOA**
 
-<img src="img/3.png" alt="Execució de dig escolapia.cat SOA">
+<img src="img/3.png" alt="Execució de dig escolapia.cat SOA" width="750">
 
 - **Anàlisi: Quina és la informació del correu de l'administrador i el número de sèrie del domini?**
 
@@ -49,7 +49,7 @@ Per fer aquesta demostració, caldrà usar un equip **Zorin** amb dues interfíc
 
 - **Executa comanda dig -x 147.83.2.135**
 
-<img src="img/4.png" alt="Execució de comanda dig -x 147.83.2.135">
+<img src="img/4.png" alt="Execució de comanda dig -x 147.83.2.135" width="550">
 
 - **Anàlisi: Quina informació sobre els registres s’obté?**
 
@@ -61,7 +61,7 @@ Per fer aquesta demostració, caldrà usar un equip **Zorin** amb dues interfíc
 
 - **Seleccionar type=A i com a domini de consulta tecnocampus.cat**
 
-<img src="img/5.png" alt="Execució de comanda nslookup, type=A, tecnocampus.cat">
+<img src="img/5.png" alt="Execució de comanda nslookup, type=A, tecnocampus.cat" width="350">
 
 - **Anàlisi: Per què indica que la resposta és no autoritativa?**
 
@@ -71,7 +71,7 @@ Per fer aquesta demostració, caldrà usar un equip **Zorin** amb dues interfíc
 
 - **Escriure server IP i escriure la IP del primer servidor de noms del domini tecnocampus.cat que s’ha obtingut d’una consulta anterior. A continuació, indiqueu que voleu consultar registres de tipus A i del domini tecnocampus.cat**
 
-<img src="img/6.png" alt="Execució de comanda nslookup utilitzant com a servidor el NS de tecnocampus.cat obtingut a la consulta anterior">
+<img src="img/6.png" alt="Execució de comanda nslookup utilitzant com a servidor el NS de tecnocampus.cat obtingut a la consulta anterior" width="350">
 
 - **Anàlisi: Quines diferències s’observen a la resposta obtinguda amb la comanda 1?**
 
@@ -83,12 +83,14 @@ Per fer aquesta demostració, caldrà usar un equip **Zorin** amb dues interfíc
 
 Creem un **adaptador pont a la màquina**, per a poder tindre **connectivitat en la xarxa local**
 
-<img src="img/7.png" alt="Creant un adaptador pont a la màquina virtual">
+<img src="img/7.png" alt="Creant un adaptador pont a la màquina virtual" width="750">
 
 I li assignem la IP **192.168.4.26/24**.
 
-<img src="img/8.png" alt="Configurant la IP a la màquina">
+<img src="img/8.png" alt="Configurant la IP a la màquina" width="550">
 
 I ara li fem **ping a una altra màquina** per a comprovar que **funciona correctament la resolució local**.
 
-<img src="img/9.png" alt="Fent ping a una altra màquina">
+<img src="img/9.png" alt="Fent ping a una altra màquina" width="650">
+
+[Tornar a enunciat](README.md)
