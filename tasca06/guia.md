@@ -9,7 +9,7 @@ Per fer aquesta demostració, caldrà usar un equip **Zorin** amb dues interfíc
 
 ---
 
-## 🔹 A. Diagnosi Avançada amb `dig` (Linux / macOS)
+## 🔹 A. Diagnosi Avançada amb dig (Linux / macOS)
 
 ### 🧭 Comanda 1: Consulta Bàsica de Registre A
 
@@ -30,10 +30,10 @@ Per fer aquesta demostració, caldrà usar un equip **Zorin** amb dues interfíc
 - **Anàlisi: Quins són els servidors de noms autoritatius per a aquest domini?**
 
   Els servidors de noms autoritatius per al domini tecnocampus.cat són:
-  - ns-1689.awsdns-19.co.uk.
-  - ns-1071.awsdns-05.org.
-  - ns-535.awsdns-02.net.
-  - ns-130.awsdns-16.com.
+  - **ns-1689.awsdns-19.co.uk.**
+  - **ns-1071.awsdns-05.org.**
+  - **ns-535.awsdns-02.net.**
+  - **ns-130.awsdns-16.com.**
 
 ### 🧭 Comanda 3: Consulta Detallada SOA
 
