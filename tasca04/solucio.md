@@ -364,3 +364,5 @@ Un cop iniciada la sessió, podem comprovar que tot s’ha creat correctament.
 Si repetim el mateix procés amb l’usuari `manager01`, obtindrem el mateix resultat.
 
 <img src="img/51.png" alt="Sessió iniciada correctament amb l'usuari manager01 verificant el bon funcionament del domini.">
+
+[Tornar a enunciat](README.md)
