@@ -1,17 +1,14 @@
-# ⚙️ T06: Fonaments del servei DNS
+## 🎥 P06: Vídeo — *Fonaments DNS*
 
-Com a membres cada cop més integrats de l'equip tècnic de la consultora **EverPia**, teniu davant un nou repte.
+A la tasca **“T06: Fonaments del DNS”** heu realitzat un vídeo dins l’encàrrec que **Digicorp** va sol·licitar a **EverPia** 🎓 per a la formació del seu personal tècnic en els conceptes bàsics del servei del sistema de noms (**DNS** 🌐).
 
-El vostre client, una empresa de màrqueting digital (**DigiCore**), experimenta de tant en tant **errors de connectivitat** a certes aplicacions.  
-El seu equip tècnic sospita que la causa principal podria ser una **resolució de noms (DNS)** incorrecta o massa lenta.
+Aquest vídeo és un producte del qual **podeu estar orgullosos 💪**, i per tant, voleu incorporar-lo al vostre **portfoli personal 💼**.  
+Recordeu que **progressar professionalment 🚀** dins d’una consultora implica crear-se un **currículum** amb les millors accions i projectes que aneu realitzant durant la vostra estada.
 
-Se us ha encarregat **realitzar una auditoria teòrica i pràctica del servei DNS**, amb l’objectiu de:
-
-- Formar el personal tècnic del client.  
-- Oferir **eines de diagnosi ràpides** per detectar i resoldre problemes de DNS.
+📤 Tal com es va indicar a la tasca, **pengeu el vídeo** en alguna plataforma —per exemple, podeu utilitzar **Stream** (Office 365).  
+🔒 Assegureu-vos de **donar permisos de visualització** adequats perquè tothom el pugui veure sense problemes.
 
 ## 📎  Documents
 
 Podeu consultar tots els documents fent clic al document corresponent:
 - Al arxiu [vídeo](../tasca06/video.md) podeu trobar el link al video.
-- Al arxiu [guia](../tasca06/guia.md) podeu trobar la guia.
