@@ -63,10 +63,12 @@ Per a la demostració pràctica, cal utilitzar un **equip Zorin OS** amb les seg
 
 Dins la carpeta `tasca06` es troben els següents arxius:
 
+- `video.md`: Vídeo formatiu sobre el DNS.
 - `guia.md`: Guia tècnica de la Fase 2 amb instruccions pas a pas per a l’eina seleccionada.
 - Carpeta `img/`: Conté les imatges utilitzades a la guia.
 
 ## 📎  Documents
 
 Podeu consultar tots els documents fent clic al document corresponent:
+- Al arxiu [vídeo](video.md) podeu trobar el link al video.
 - Al arxiu [guia](guia.md) podeu trobar la guia.
