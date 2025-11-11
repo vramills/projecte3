@@ -19,7 +19,7 @@ sudo apt install fdisk
 Ara comprovem els discos disponibles:
 
 ```bash
-sudo fdisk \-l
+sudo fdisk -l
 ```
 
 Podem observar que, a més del disc principal (**sda**), apareixen els discos nous (**sdb** i **sdc**).
@@ -169,7 +169,7 @@ sudo lvs -a -o +devices | grep mirror
 
 ---
 
-**8️⃣ Instantànies (Snapshots)**
+## **8️⃣ Instantànies (Snapshots)**
 
 Ara per a més seguretat, crearem una **còpia exacta** d’un **LV** que **conté totes les dades** en el moment que es crea la **instantània**.
 
