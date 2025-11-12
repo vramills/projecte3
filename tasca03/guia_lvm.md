@@ -171,39 +171,4 @@ sudo lvs -a -o +devices | grep mirror
 
 ## **8️⃣ Instantànies (Snapshots)**
 
-Ara per a més seguretat, crearem una **còpia exacta** d’un **LV** que **conté totes les dades** en el moment que es crea la **instantània**.
-
-Per a fer-ho, **eliminarem el volum lògic anterior** i ara el **crearem de nou**, **el formatarem**, però de **100 MB** de mida i **crearem alguns arxius** a dins del **lv01**. 
-
-<img src="img/18.png">
-
-<img src="img/19.png">
-
-### **8.2. Creant la snapshot**
-
-Ara **crearem la instantània** (snapshot):
-
-<img src="img/20.png">
-
-- **L 100M**: mida de la instantània.  
-- **-s**: per indicar que és una snapshot.  
-- **-n copialv01**: nom de la instantània.  
-- **/dev/volgrup/lv01**: volum lògic del que es farà el snapshot.
-
-Podem veure els dos **LV creats** i com la **còpia apunta** al **volum original**:
-
-<img src="img/21.png">
-
-### **8.3. Muntant la snapshot**
-
-Ara muntem la còpia per a veure el contingut amb les següents comandes:
-
-```bash
-sudo mkdir /mnt/copia
-```
-
-```bash
-sudo mount /dev/volgrup/copialv01 /mnt/copia
-```
-
 [Tornar a enunciat](README.md)
