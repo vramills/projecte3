@@ -171,4 +171,62 @@ sudo lvs -a -o +devices | grep mirror
 
 ## **8️⃣ Instantànies (Snapshots)**
 
+**Eliminarem el volum lògic anterior** i **ara en crearem un de nou** però de **100MiB de mida**:
+
+<img src="img/18.png">
+
+El formatem i **muntem a /mnt/lv01** amb la següent comanda:
+
+```bash
+sudo mount /dev/volgrup/lv01 /mnt/lv01
+```
+
+I **creem alguns arxius brossa** a dins amb la comada **fallocate**, que serveix per a **crear arxius d'una mida fixa de manera instantània**:
+
+<img src="img/19.png">
+
+Ara **crearem la instantània (snapshot)** amb la següent comanda:
+
+```bash
+lvcreate -L 100M -s -n copia01 /dev/volgrup/lv01
+```
+
+**On té aquest significat:**
+
+- **L 100M:** mida de la instantània.  
+- **-s**: per indicar que és una snapshot.  
+- **-n copialv01**: nom de la instantània.  
+- **/dev/volgrup/lv01**: volum lògic del que es farà el snapshot.
+
+###**8.1. Muntant la snapshot**
+
+Després, **muntem la còpia** per veure el contingut amb les següents comandes:
+
+Primer **creem la carpeta al directori /mnt**
+
+```bash
+sudo mkdir /mnt/snapshot
+```
+
+I després **muntem la còpia** per a veure el contingut i **podem veure que s’ha realitzat correctament**.
+
+<img src="img/20.png">
+
+Per a veure la diferència real amb el **mirror**, **creem un arxiu a dins de lv01** per a veure que **a dins de la snapshot no apareix**.
+
+<img src="img/21.png">
+
+També, si **volem provar que la snapshot pot recuperar la informació de la lv01**, ho farem amb les següents comandes:
+
+Primer **desmuntem les unitats**:
+
+```bash
+sudo umount /mnt/lv01
+sudo umount /mnt/snapshot
+```
+
+I després ja podem **aplicar-la** i podem veure que **ha desaparegut el file04**, per tant, **s’ha restaurat la snapshot correctament**.  
+
+<img src="img/22.png">
+
 [Tornar a enunciat](README.md)
