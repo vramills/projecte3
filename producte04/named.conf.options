@@ -16,7 +16,7 @@ options {
 	// the all-0's placeholder.
 	recursion yes;
 	allow-recursion {trusted; };
-	listen-on { any; };
+	listen-on {any; };
 	allow-transfer {none; };
 	forwarders {
 	8.8.8.8;
