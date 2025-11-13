@@ -15,7 +15,7 @@ zone "digicore-26.test" {
 zone "4.168.192.in-addr.arpa" {
 	type master;
 	file "/etc/bind/zones/db.192.168.4";
-        allow-transfer {192.168.4.5;};
+    allow-transfer {192.168.4.5;};
 };
 
 zone "waytoit.test" {
