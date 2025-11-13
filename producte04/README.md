@@ -57,4 +57,16 @@ Amb aquests passos, tindreu:
 
 ---
 
-💪 *Bona feina, equip de sistemes! Seguiu així i tindreu un entorn totalment professionalitzat i eficient.* 🚀
+## 📂  Estructura de carpetes
+
+Dins la carpeta `producte04` es troben els següents arxius:
+
+- `named.conf.local`: Arxiu de configuració de les zones del domini.
+- `named.conf.options`: Arxiu de configuració de les ACL on es defineixen quins equips podran fer consultes DNS al nostre servidor.
+- Carpeta `zones/`: Conté els arxius de configuració de les zones.
+
+## 📎  Documents
+Podeu consultar tots els documents fent clic al document corresponent:
+- Al arxiu [named.conf.local](named.conf.local) podeu trobar la configuració de les zones del domini.
+- Al arxiu [named.conf.options](named.conf.options) podeu trobar la configuració de les ACL on es defineixen quins equips podran fer consultes DNS al nostre servidor.
+- A la carpeta [zones](./zones) conté els arxius de configuració de les zones.
