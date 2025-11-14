@@ -188,7 +188,7 @@ I **creem alguns arxius brossa** a dins amb la comada **fallocate**, que serveix
 Ara **crearem la instantània (snapshot)** amb la següent comanda:
 
 ```bash
-lvcreate -L 100M -s -n copia01 /dev/volgrup/lv01
+lvcreate -L 100M -s -n lv_snapshot /dev/volgrup/lv01
 ```
 
 **On té aquest significat:**
@@ -205,10 +205,14 @@ Després, **muntem la còpia** per veure el contingut amb les següents comandes
 Primer **creem la carpeta al directori /mnt**
 
 ```bash
-sudo mkdir /mnt/snapshot
+mkdir /mnt/snapshot
 ```
 
 I després **muntem la còpia** per a veure el contingut i **podem veure que s’ha realitzat correctament**.
+
+```bash
+mount /dev/volgrup/lv_snapshot /dev/volgrup/lv01
+```
 
 <img src="img/20.png">
 
@@ -221,8 +225,8 @@ També, si **volem provar que la snapshot pot recuperar la informació de la lv0
 Primer **desmuntem les unitats**:
 
 ```bash
-sudo umount /mnt/lv01
-sudo umount /mnt/snapshot
+umount /mnt/lv01
+umount /mnt/snapshot
 ```
 
 I després ja podem **aplicar-la** i podem veure que **ha desaparegut el file04**, per tant, **s’ha restaurat la snapshot correctament**.  
