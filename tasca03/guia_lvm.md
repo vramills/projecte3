@@ -129,7 +129,7 @@ Per a poder fer-ho, primer haurem **d'esborrar** els **volums lògics** i el **g
 
 Per a fer-ho seguirem els següents passos:
 
-Primer **desmuntarem** el **volum lògic** amb la comanda **umount /mnt/lv01**, per a desmuntar el LV i **lvremove** per a eliminar-lo.
+Primer **desmuntarem** el **volum lògic** amb la comanda `umount /mnt/lv01`, per a desmuntar el LV i `lvremove` per a eliminar-lo.
 
 <img src="img/13.png">
 
