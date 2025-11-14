@@ -149,10 +149,6 @@ I executem la comanda **pvs** per a veure que els volums estan lliures:
 
 **Creem un grup de volums** amb els dos volums físics:
 
-```bash
-sudo vgcreate lvm_mirror /dev/sdb /dev/sdc
-```
-
 <img src="img/15.png">
 
 I ara **crearem** el sistema de **mirall (mirror) simple**:
