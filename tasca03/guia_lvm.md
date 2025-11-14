@@ -125,7 +125,7 @@ I apliquem els canvis:
 
 Per a tindre **redundància**, utilitzarem el **mirroring**, que és una **idea similar** al **RAID 1** però a nivell de **volums lògics**.
 
-Per a poder fer-ho, primer haurem **d'esborrar** els **volums lògics** i el **grup de volums** creat prèviament.
+Primer haurem **d'esborrar** els **volums lògics** i el **grup de volums** creat prèviament.
 
 Per a fer-ho seguirem els següents passos:
 
@@ -162,6 +162,20 @@ sudo lvs -a -o +devices | grep mirror
 ```
 
 <img src="img/17.png">
+
+### **7.2. Demostració de redundància**
+
+Per a veure que **funciona correctament** **pararem la màquina** i **eliminarem i un disc** i el **substituirem per un altre**.
+
+**Eliminem el segon disc** i **n'afegim un de nou**.
+
+<img src="img/27.png">
+
+<img src="img/28.png">
+
+**Iniciem la màquina** i podem veure que **detecta que el disc no està** i **s’encarrega de fer el mirall automàticament**.
+
+<img src="img/29.png">
 
 ---
 
