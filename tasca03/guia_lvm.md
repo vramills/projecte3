@@ -174,7 +174,7 @@ sudo lvs -a -o +devices | grep mirror
 El formatem i **muntem a /mnt/lv01** amb la següent comanda:
 
 ```bash
-sudo mount /dev/volgrup/lv01 /mnt/lv01
+mount /dev/volgrup/lv01 /mnt/lv01
 ```
 
 I **creem alguns arxius brossa** a dins amb la comada **fallocate**, que serveix per a **crear arxius d'una mida fixa de manera instantània**:
@@ -228,5 +228,35 @@ umount /mnt/snapshot
 I després ja podem **aplicar-la** i podem veure que **ha desaparegut el file04**, per tant, **s’ha restaurat la snapshot correctament**.  
 
 <img src="img/22.png">
+
+---
+
+## **9️⃣ Escalabilitat (Ampliació de Volum)**
+
+Ara **ampliarem el volum anteriorment creat**, per a fer-ho hem d'executar les **següents comandes**:
+
+Primer **desmuntarem el disc** i ho farem amb la **comanda umount.**
+
+Un cop **ja desmuntat**, farem servir la **comanda lvextend** que ens permet **extrendre el volum**:
+
+<img src="img/23.png">
+
+Un cop amb el **volum ampliat**, el **següent pas** serà **ampliar el sistema de fitxers** i ho farem amb les **següents comandes**:
+
+La **primera comanda** serveix per a **comprovar** que **no hi ha erros**, **abans de modificar** el **sistema d’arxius**:
+
+**e2fsck \-f /dev/volgrup/lv01**
+
+<img src="img/24.png">
+
+I un cop **sabem** que està **tot correcte** ja **podem executar la segona comanda** per a **ampliar el volum definitivament**:
+
+**resize2fs /dev/volgrup/lv01**
+
+<img src="img/25.png">
+
+I finalment **veiem que s’ha ampliat correctament**:
+
+<img src="img/26.png">
 
 [Tornar a enunciat](README.md)
