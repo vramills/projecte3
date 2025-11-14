@@ -194,7 +194,7 @@ lvcreate -L 100M -s -n lv_snapshot /dev/volgrup/lv01
 - **-n copialv01**: nom de la instantània.  
 - **/dev/volgrup/lv01**: volum lògic del que es farà el snapshot.
 
-###**8.1. Muntant la snapshot**
+### **8.1. Muntant la snapshot**
 
 Després, **muntem la còpia** per veure el contingut amb les següents comandes:
 
